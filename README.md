@@ -20,11 +20,14 @@ sbatch job.sh
 Change other arguments that you can train your own model.
 
 Citation
+
 If you find MINet useful for your research, please consider citing the following papers:
 
+```
 @inproceedings{feng2021MINet,
   title={Multi-Contrast MRI Super-Resolution via a Multi-Stage Integration Network},
   author={Feng, Chun-Mei and Fu, Huazhu and Yuan, Shuhao and Xu, Yong},
   booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
   year={2021}
 }
+```
