@@ -1,5 +1,5 @@
 # MINet
-# Multi-Contrast MRI Super-Resolution via a Multi-Stage Integration Network
+# Multi-Contrast MRI Super-Resolution via a Multi-Stage Integration Network (MICCAI 2021)
 
 ## Dependencies
 * numpy==1.18.5
