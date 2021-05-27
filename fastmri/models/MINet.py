@@ -311,6 +311,7 @@ class MINet(nn.Module):
             
             res_t1 = resT1
             res_t2_next = res+resT2
+	    resT2 = res_t2_next
 
         out1T1 = res_t1   
         out1T2 = res_t2_next
