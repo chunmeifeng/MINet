@@ -36,9 +36,9 @@ def fetch_dir(key, data_config_file=pathlib.Path("fastmri_dirs.yaml")):
     """
     if not data_config_file.is_file():
         default_config = dict(
-            knee_path="/home/jc3/Data/",
-            brain_path="/home/jc3/Data/",
-            # log_path="/home/jc3/multiSR/JS_fastMRI/SR_fastMRI-master/experimental/unet/",
+            knee_path="/home/chunmeifeng/Data/",
+            brain_path="/home/chunmeifeng/Data/",
+            # log_path="/home/chunmeifeng/experimental/MINet/",
         )
         with open(data_config_file, "w") as f:
             yaml.dump(default_config, f)
