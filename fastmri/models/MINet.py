@@ -309,12 +309,10 @@ class MINet(nn.Module):
             res = torch.cat([resT1,resT2],dim=1)
             res = fusion_conv(res)
             
-            res_t1 = resT1
-            res_t2_next = res+resT2
-	    resT2 = res_t2_next
+            resT2 = res+resT2
 
-        out1T1 = res_t1   
-        out1T2 = res_t2_next
+        out1T1 = resT1   
+        out1T2 = resT2
 
         ts = t1s + t2s
         ts = torch.cat(ts,dim=1)
