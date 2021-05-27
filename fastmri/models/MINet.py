@@ -318,8 +318,8 @@ class MINet(nn.Module):
 
         ts = t1s + t2s
         ts = torch.cat(ts,dim=1)
-        res1_T2 = self.net1.la(ts)
-        out2_T2 = self.net1.last_conv(res1_T2)
+        res1_T2 = self.net2.la(ts)
+        out2_T2 = self.net2.last_conv(res1_T2)
 
         out1T1 = self.net1.csa(out1T1)   
         out1T2 = self.net2.csa(out1T2)
